@@ -1,7 +1,7 @@
 // Use D3 fetch to read the JSON file
 // The data from the JSON file is arbitrarily named importedData as the argument
 (async function(){
-  var importedData = await d3.json("data/data.json");
+  var importedData = await d3.json("data.json");
   // console.log(importedData);
   var data = importedData;
 
